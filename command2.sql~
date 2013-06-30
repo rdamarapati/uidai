@@ -1,0 +1,3 @@
+/* To see how many Aadhar generated from each state */
+
+select State, count(AadhaarGenerated) from uidai group by State;
